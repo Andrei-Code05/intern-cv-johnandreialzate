@@ -50,3 +50,25 @@ footer {
   color: #333;
   font-size: 14px;
 }
+
+/*Dark Mode*/
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode header, 
+body.dark-mode footer {
+    background-color: #1f1f1f;
+}
+
+body.dark-mode footer {
+    color: #ffa500;
+}
+
+button {
+    padding: 8px 15px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
